@@ -18,4 +18,8 @@
   <build_export_depend condition="$ROS_PYTHON_VERSION == 3">python3-numpy</build_export_depend>
   
   <depend condition="($ROS_DISTRO != melodic) and ($ROS_DISTRO != noetic)">pybind11-dev</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
 </package>
